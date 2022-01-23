@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h2 class="ms-4 mb-4" style="font-weight: bold; color: #d6d6d6">My Shopping Cart</h2>
+    <h2 class="ms-4 mb-4" style="font-weight: bold; color: #d6d6d6">Shopping Cart</h2>
     @php ($count = 0)
     @php ($total = 0)
     @foreach($cart as $crt)

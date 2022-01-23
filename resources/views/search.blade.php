@@ -21,7 +21,7 @@
             @endphp
         @endforeach
         @if($count == 0)
-            <h4 class="ms-4 mt-2" style="font-weight: bold; color: #d6d6d6">Game Not Found!</h4>
+            <h4 class="ms-4 mt-2" style="font-weight: bold; color: #d6d6d6">Software Not Found!</h4>
         @endif
     </div>
 @endsection

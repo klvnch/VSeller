@@ -197,7 +197,6 @@ class SoftwaresController extends Controller
     }
 
     public function updatesw(Softwares $sw){
-        // $game = Games::where('id', $games_id)->get();
         return view('updatesw', [
             "software" => $sw
         ]);
